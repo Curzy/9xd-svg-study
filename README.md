@@ -13,7 +13,7 @@
   - HTML에서의 <div>로 만든 그룹뿐만 아니라 <g>로도 CSS애니메이션 활용이 가능함
 
 4. [Seoul Subway Map](http://codepen.io/Curzy/pen/jyXBaa?editors=1100)
-  - [서울 월세 노선도](http://curzy.xyz/)에서 사용하던 SVG노선도 리팩토링: <g>의 각 하위요소가 가지던 공통 속성은 그룹에 부여, class추가
+  - [서울 월세 노선도](http://curzy.xyz/)에서 사용하던 SVG노선도 리팩토링: <g>의 각 하위요소가 가지던 공통 속성은 그룹에 부여, 컨트롤을 위한 class추가
   - line부분 ![line](/static/line.png)
   - text부분 ![text](/static/text.png)
   - 특정 라인 hover 액션 -> 그 외의 라인 블러로 처리하려고 했는데 JS가 필요할 것 같다.
